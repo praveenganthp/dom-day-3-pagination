@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination-item {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination-item.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination-button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #007bff;
+}
+.content-container{
+    /* text-align: center; */
+    position: absolute;
+    top: 10%;
+    /* left: 50%; */
+   
+    font-weight: 600;
+    font-size: clamp(1rem,5vw,3rem);
+}
